@@ -122,8 +122,6 @@ Performance was evaluated using:
 ### ROC Curve
 ![ROC Curve](roc_curve.png)
 
-This indicates good discrimination between patients with and without diabetes.
-
 ---
 
 ## Clinical Risk Stratification
