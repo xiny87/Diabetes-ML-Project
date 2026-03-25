@@ -2,19 +2,31 @@
 
 ## Project Overview
 
-This project demonstrates a complete machine learning workflow for predicting diabetes risk using patient-level clinical data.
+This project applies machine learning models to predict diabetes risk using patient-level clinical data.
 
-The goal is to build interpretable predictive models and explore clinically meaningful features that contribute to diabetes risk.
+It combines clinical reasoning, feature engineering, and predictive modeling to identify key risk factors associated with diabetes.
 
-The project includes:
+This project demonstrates my transition from epidemiology and real-world evidence analysis into applied healthcare data science.
 
-- Exploratory Data Analysis (EDA)
-- Clinically informed Feature Engineering
-- Logistic Regression baseline model
-- Random Forest model comparison
-- Model evaluation using ROC-AUC
-- Feature importance analysis
-- Clinical risk stratification
+---
+
+## Clinical / Business Relevance
+
+Early identification of diabetes risk is critical for preventive care, patient stratification, and targeted clinical interventions.
+
+This project reflects real-world evidence (RWE) thinking by:
+- Translating clinical knowledge into meaningful features
+- Identifying high-risk patient groups
+- Supporting population health and clinical decision-making
+
+---
+
+## Key Results
+
+- Logistic Regression ROC-AUC: **0.84**
+- Random Forest ROC-AUC: **0.81**
+
+Logistic Regression slightly outperformed Random Forest while remaining more interpretable, which is valuable in healthcare applications.
 
 ---
 
@@ -36,7 +48,7 @@ Target variable:
 Outcome
 
 Where:
-1 = Diabetes
+1 = Diabetes  
 0 = No Diabetes
 
 ---
@@ -137,10 +149,11 @@ Patients in the high-risk group showed substantially higher observed diabetes pr
 ---
 
 ## Project Structure
-diabetes-ml-project
-│
-├── diabetes_ml_project.ipynb
-├── README.md
+
+diabetes-ml-project  
+│  
+├── diabetes_ml_project.ipynb  
+├── README.md  
 
 ---
 
@@ -148,12 +161,19 @@ diabetes-ml-project
 
 This project demonstrates an end-to-end healthcare machine learning workflow:
 
-- data exploration
-- feature engineering based on clinical knowledge
-- interpretable baseline modeling
-- nonlinear model comparison
-- model interpretation and risk stratification
+- data exploration  
+- feature engineering based on clinical knowledge  
+- interpretable baseline modeling  
+- nonlinear model comparison  
+- model interpretation and risk stratification  
 
 The results highlight how clinically informed feature engineering can improve model interpretability and predictive performance in healthcare datasets.
 
 ---
+
+## Next Steps
+
+- Handle implausible zero values as missing data  
+- Apply feature scaling for Logistic Regression  
+- Perform hyperparameter tuning  
+- Use cross-validation for more robust evaluation
