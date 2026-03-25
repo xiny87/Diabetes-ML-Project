@@ -116,8 +116,11 @@ Performance was evaluated using:
 - Confusion Matrix
 - Classification Report
 
-Example ROC curve:
-ROC-AUC ≈ 0.84
+### Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
+
+### ROC Curve
+![ROC Curve](roc_curve.png)
 
 This indicates good discrimination between patients with and without diabetes.
 
