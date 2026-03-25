@@ -151,9 +151,9 @@ Patients in the high-risk group showed substantially higher observed diabetes pr
 
 ## Project Structure
 
-diabetes-ml-project  
+diabetes-risk-prediction  
 │  
-├── diabetes_ml_project.ipynb  
+├── healthcare_ml_diabetes_prediction.ipynb  
 ├── README.md  
 
 ---
